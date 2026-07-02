@@ -1,0 +1,292 @@
+/**
+ * AKSA INFINITE CLICKZ - Portfolio Data Configuration
+ * 
+ * AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY.
+ * Edit 'gallery-config.json' to change image spans (portrait/landscape), titles, or rotations!
+ * Run 'Update Gallery.bat' to apply changes.
+ */
+
+// 1. HERO SECTION IMAGES (3-Column Grid Scatter Cards)
+const HERO_IMAGES = {
+  leftTop: {
+    src: 'images/1767549900320_1.jpg',
+    title: 'Halcyon Dusk'
+  },
+  leftBottom: {
+    src: 'images/aks_0419.jpg',
+    title: 'Halcyon Dusk'
+  },
+  rightTop: {
+    src: 'images/aks_0606.jpg',
+    title: 'Gilded Echoes',
+    badge: 'High-Speed Focal Precision'
+  },
+  rightBottom: {
+    src: 'images/aks_0675.jpg',
+    title: 'Aura of Light'
+  }
+};
+
+// 2. OUR WORK GALLERY (Asymmetric Masonry Grid)
+const GALLERY_DATA = [
+  {
+    src: 'images/1767549900328.jpg',
+    title: 'Minimalist Structure',
+    category: 'Editorial',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Emphasizing shadow contrasts, depth, and elegant details.'
+  },  {
+    src: 'images/1767549900342.jpg',
+    title: 'Focal Harmony',
+    category: 'Portrait',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Chasing light and freezing motion at high speed.'
+  },  {
+    src: 'images/1767549900355.jpg',
+    title: 'Minimalist Structure',
+    category: 'Fashion',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'A premium editorial study in luxury photography.'
+  },  {
+    src: 'images/1767549900380.jpg',
+    title: 'Nebula Focus',
+    category: 'Cinematic',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Capturing cinematic lighting and minimalist composition.'
+  },  {
+    src: 'images/1767549900391_1.jpg',
+    title: 'Elysian Portrait',
+    category: 'Editorial',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Emphasizing shadow contrasts, depth, and elegant details.'
+  },  {
+    src: 'images/1767549900402.jpg',
+    title: 'Halcyon Dusk',
+    category: 'Portrait',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Chasing light and freezing motion at high speed.'
+  },  {
+    src: 'images/1767549900411_1.jpg',
+    title: 'Luminescent Frame',
+    category: 'Fashion',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'A premium editorial study in luxury photography.'
+  },  {
+    src: 'images/aks_0363.jpg',
+    title: 'Gilded Echoes',
+    category: 'Cinematic',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Capturing cinematic lighting and minimalist composition.'
+  },  {
+    src: 'images/aks_0416.jpg',
+    title: 'Amber Vignette',
+    category: 'Editorial',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Emphasizing shadow contrasts, depth, and elegant details.'
+  },  {
+    src: 'images/aks_0456.jpg',
+    title: 'Luminescent Frame',
+    category: 'Fashion',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'A premium editorial study in luxury photography.'
+  },  {
+    src: 'images/aks_0510.jpg',
+    title: 'Velvet Mirage',
+    category: 'Cinematic',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Capturing cinematic lighting and minimalist composition.'
+  },  {
+    src: 'images/aks_0512.jpg',
+    title: 'Vogue Editorial',
+    category: 'Editorial',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Emphasizing shadow contrasts, depth, and elegant details.'
+  },  {
+    src: 'images/aks_0521.jpg',
+    title: 'Vogue Editorial',
+    category: 'Portrait',
+    span: 'landscape',
+    position: 'center 15%',
+    caption: 'Chasing light and freezing motion at high speed.'
+  },  {
+    src: 'images/aks_0524.jpg',
+    title: 'Amber Vignette',
+    category: 'Fashion',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'A premium editorial study in luxury photography.'
+  },  {
+    src: 'images/aks_0526.jpg',
+    title: 'Crimson Zenith',
+    category: 'Cinematic',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Capturing cinematic lighting and minimalist composition.'
+  },  {
+    src: 'images/aks_0567.jpg',
+    title: 'Aura of Light',
+    category: 'Editorial',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Emphasizing shadow contrasts, depth, and elegant details.'
+  },  {
+    src: 'images/aks_0575.jpg',
+    title: 'Focal Harmony',
+    category: 'Portrait',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Chasing light and freezing motion at high speed.'
+  },  {
+    src: 'images/aks_0592.jpg',
+    title: 'Infinite Exposure',
+    category: 'Portrait',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Chasing light and freezing motion at high speed.'
+  },  {
+    src: 'images/aks_0609.jpg',
+    title: 'Luminescent Frame',
+    category: 'Cinematic',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Capturing cinematic lighting and minimalist composition.'
+  },  {
+    src: 'images/aks_0618.jpg',
+    title: 'Luminescent Frame',
+    category: 'Editorial',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Emphasizing shadow contrasts, depth, and elegant details.'
+  },  {
+    src: 'images/aks_0624.jpg',
+    title: 'Gilded Echoes',
+    category: 'Portrait',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Chasing light and freezing motion at high speed.'
+  },  {
+    src: 'images/aks_0641.jpg',
+    title: 'Amber Vignette',
+    category: 'Fashion',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'A premium editorial study in luxury photography.'
+  },  {
+    src: 'images/aks_0644.jpg',
+    title: 'Halcyon Dusk',
+    category: 'Cinematic',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Capturing cinematic lighting and minimalist composition.'
+  },  {
+    src: 'images/aks_0657.jpg',
+    title: 'Aura of Light',
+    category: 'Editorial',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Emphasizing shadow contrasts, depth, and elegant details.'
+  },  {
+    src: 'images/aks_0657_2.jpg',
+    title: 'Opulent Contrast',
+    category: 'Portrait',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Chasing light and freezing motion at high speed.'
+  },  {
+    src: 'images/aks_0658.jpg',
+    title: 'Nebula Focus',
+    category: 'Fashion',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'A premium editorial study in luxury photography.'
+  },  {
+    src: 'images/aks_0660.jpg',
+    title: 'Gilded Echoes',
+    category: 'Cinematic',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Capturing cinematic lighting and minimalist composition.'
+  },  {
+    src: 'images/aks_0686.jpg',
+    title: 'Opulent Contrast',
+    category: 'Portrait',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Chasing light and freezing motion at high speed.'
+  },  {
+    src: 'images/aks_0696.jpg',
+    title: 'Minimalist Structure',
+    category: 'Fashion',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'A premium editorial study in luxury photography.'
+  },  {
+    src: 'images/aks_0701.jpg',
+    title: 'Vogue Editorial',
+    category: 'Cinematic',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Capturing cinematic lighting and minimalist composition.'
+  },  {
+    src: 'images/aks_0703.jpg',
+    title: 'Solitary Motion',
+    category: 'Editorial',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Emphasizing shadow contrasts, depth, and elegant details.'
+  },  {
+    src: 'images/aks_0705.jpg',
+    title: 'Gilded Echoes',
+    category: 'Portrait',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Chasing light and freezing motion at high speed.'
+  },  {
+    src: 'images/dsc05136_2.jpg',
+    title: 'Focal Harmony',
+    category: 'Cinematic',
+    span: 'landscape',
+    position: 'center',
+    caption: 'Capturing cinematic lighting and minimalist composition.'
+  },  {
+    src: 'images/dsc05142_2.jpg',
+    title: 'Halcyon Dusk',
+    category: 'Editorial',
+    span: 'landscape',
+    position: 'center',
+    caption: 'Emphasizing shadow contrasts, depth, and elegant details.'
+  },  {
+    src: 'images/dsc_0031.jpg',
+    title: 'Subterranean Glow',
+    category: 'Portrait',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Chasing light and freezing motion at high speed.'
+  },  {
+    src: 'images/dsc_0039.jpg',
+    title: 'Gilded Echoes',
+    category: 'Fashion',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'A premium editorial study in luxury photography.'
+  },  {
+    src: 'images/dsc_0042.jpg',
+    title: 'Velvet Mirage',
+    category: 'Cinematic',
+    span: 'portrait',
+    position: 'center 20%',
+    caption: 'Capturing cinematic lighting and minimalist composition.'
+  }
+];

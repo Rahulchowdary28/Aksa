@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKSA INFINITE CLICKZ | Cinematic Photography Studio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="AKSA INFINITE CLICKZ is an elite cinematic photography studio capturing light, motion, and freezing time with premium editorial precision.">
+    <meta name="keywords" content="cinematic photography, luxury portfolio, fashion editorial, high-speed photography, AKSA, portrait studio">
+    
+    <!-- Google Fonts: Cinzel (Display Headings) and Montserrat (UI & Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Luxury Background Accents -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <!-- 1. FIXED NAVIGATION BAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo-link" id="nav-logo-link">
+                <img src="assets/logo.png" alt="AKSA INFINITE CLICKZ Logo" class="nav-logo-img" id="nav-logo-img">
+                <span class="nav-brand-text gradient-brand">AKSA <span class="thin">INFINITE CLICKZ</span></span>
+            </a>
+
+            <!-- Desktop Menu (hidden on mobile) -->
+            <div class="nav-menu" id="nav-menu">
+                <a href="#work" class="nav-link">OUR WORK</a>
+                <a href="javascript:void(0)" class="nav-link btn-cta" id="nav-book-btn">BOOK A SHOOT</a>
+            </div>
+
+            <!-- Hamburger Toggle (Mobile Only) -->
+            <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+                <span class="ham-bar"></span>
+                <span class="ham-bar"></span>
+                <span class="ham-bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Slide-Down Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <a href="#work" class="mobile-nav-link" id="m-link-work">
+            <i class="fa-solid fa-images" style="margin-right:0.6rem;font-size:0.85rem;"></i>Gallery
+        </a>
+        <a href="javascript:void(0)" class="mobile-nav-link" id="m-link-book">
+            <i class="fa-solid fa-envelope" style="margin-right:0.6rem;font-size:0.85rem;"></i>Contact
+        </a>
+    </div>
+
+    <!-- 2. WIDESCREEN HERO COMPOSITION -->
+
+    <header class="hero-section" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-brand-row scroll-reveal">
+                    <img src="assets/logo.png" alt="AKSA Logo" class="hero-logo">
+                    <h2 class="hero-brand-name">AKSA INFINITE CLICKZ</h2>
+                </div>
+                <span class="hero-badge scroll-reveal">EST. 2026 / THROUGH THE LENS</span>
+                <h1 class="hero-title scroll-reveal">
+                    Chasing Light.<br>
+                    Capturing <span class="gradient-text">MOTION</span>.<br>
+                    Freezing Time.
+                </h1>
+                <p class="hero-desc scroll-reveal">
+                    An elite photography studio crafting cinematic imagery. We blend luxury fashion aesthetics with high-speed focal precision to eternalize fleeting moments in their most pristine form.
+                </p>
+                <div class="hero-actions scroll-reveal">
+                    <a href="#work" class="btn-solid-gradient">Explore Gallery</a>
+                    <a href="javascript:void(0)" class="btn-underline" id="hero-book-btn">Reserve Session</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. OUR WORK GALLERY SECTION -->
+    <section class="work-section" id="work">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-index">01 / PORTFOLIO</span>
+                <h2 class="section-title">OUR WORK</h2>
+            </div>
+            
+            <!-- Gallery Masonry Grid -->
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Loaded dynamically via JavaScript -->
+            </div>
+            
+            <div class="load-more-container" id="load-more-container" style="text-align: center; margin-top: 3.5rem;"></div>
+        </div>
+    </section>
+
+    <!-- 4. BOOKING INTAKE SECTION -->
+    <section class="booking-section" id="book">
+        <div class="section-container">
+            <div class="booking-card minimal-card">
+                <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">&times;</button>
+                <div class="booking-card-header">
+                    <h2 class="booking-card-title">SECURE YOUR SESSION</h2>
+                    <p class="booking-card-subtitle">
+                        Enter your details below to initiate a session, or write to us at 
+                        <a href="mailto:info@aksainfiniteclickz.com" class="direct-email-link">info@aksainfiniteclickz.com</a>.
+                    </p>
+                </div>
+                
+                <form class="booking-form" id="booking-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="Your email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="shoot-date" class="form-label">Preferred Date</label>
+                        <input type="date" id="shoot-date" name="shoot-date" class="form-input date-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Visual Brief</label>
+                        <textarea id="message" name="message" class="form-textarea" rows="3" placeholder="A brief description of your session vision..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit-gradient">
+                        <span>SEND INQUIRY</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </form>
+                
+                <div class="form-feedback" id="form-feedback">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>Inquiry sent. We will contact you shortly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="AKSA Logo" class="footer-logo">
+                <span class="footer-brand-title">AKSA <span class="thin">INFINITE CLICKZ</span></span>
+                <p class="footer-tagline">EST. 2025 / CHASE THE LIGHT</p>
+            </div>
+            
+            <div class="footer-info">
+                <div class="footer-col">
+                    <h4 class="footer-col-title">GET IN TOUCH</h4>
+                    <a href="mailto:info@aksainfiniteclickz.com" class="footer-contact-link">
+                        <i class="fa-solid fa-envelope" style="margin-right: 0.5rem; color: var(--accent-pink);"></i>
+                        info@aksainfiniteclickz.com
+                    </a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-col-title">SOCIAL INSIGNIA</h4>
+                    <div class="footer-socials">
+                        <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow on Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://pinterest.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow on Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                        <a href="https://behance.net" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow on Behance"><i class="fa-brands fa-behance"></i></a>
+                        <a href="https://youtube.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Subscribe on YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://facebook.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Like on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AKSA INFINITE CLICKZ. ALL RIGHTS RESERVED. CINEMATIC EXCELLENCE CONFIGURED.</p>
+        </div>
+    </footer>
+
+    <!-- 7. FLOATING HUD ELEMENTS (WHATSAPP PILL) -->
+    <a href="https://wa.me/15551234567" class="whatsapp-hud-btn" id="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="hud-tooltip">INQUIRE INSTANTLY</span>
+    </a>
+
+    <!-- Load Configurations and Scripts -->
+    <script src="gallery-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
